@@ -13,7 +13,7 @@
     "bcrypt": "^5.0.1",
     "connect-mongo": "^3.2.0",
     "dotenv": "^8.6.0",
-    "ejs": "^3.1.6",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "express-flash": "^0.0.2",
     "express-handlebars": "^6.0.6",
@@ -21,14 +21,14 @@
     "express-sessions": "^1.0.6",
     "method-override": "^3.0.0",
     "moment": "^2.29.4",
-    "mongodb": "^3.6.5",
+    "mongodb": "^3.7.3",
     "mongoose": "^5.13.15",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.7",
+    "nodemon": "^2.0.19",
     "passport": "^0.6.0",
     "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
-    "validator": "^13.6.0"
+    "validator": "^13.7.0"
   },
   "repository": {
     "type": "git",
