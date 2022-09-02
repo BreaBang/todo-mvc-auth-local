@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <section class="todolists"></section>
     <h1>Todos</h1>
     <ul>
     <% todos.forEach( el => { %>
@@ -22,7 +23,7 @@
 
     <form action="/todos/createTodo" method='POST'>
         <input type="text" placeholder="Enter Todo Item" name='todoItem'>
-        <input type="submit">
+        <input type="submit" class="btn-submit">
     </form>
 
     <a href="/logout">Logout</a>

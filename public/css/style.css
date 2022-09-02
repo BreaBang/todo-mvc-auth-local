@@ -1,5 +1,58 @@
+/*Layout*/
+#container{
+    
+}
+.todolists{
+    width: 400px;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+    border: solid 2px forestgreen;
+    
+}
+#layout{
+    display: flex;
+    flex-direction: column;
+
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 50%;
+}
+/*Style*/
+body {
+   
+}
 h1{
-    color: red;
+    color: forestgreen;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Courgette', 'Mochiy Pop One', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: green;
+    font-size: 1.5rem;
+    font-family: 'Courgette', 'Mochiy Pop One', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-size: 1rem;
+    color: rgb(17, 157, 17);
+}
+.completed{
+    color: rgb(20, 173, 66);
+    text-decoration: line-through;
+}
+.fa {
+    color: forestgreen);
+}
+li {
+    list-style:disc;
+    color: forestgreen ;
+}
+span {
+    font-size: 1.25rem;
 }
 .completed{
     text-decoration: line-through;
@@ -7,4 +60,32 @@ h1{
 }
 .not{
     text-decoration: underline;
+}
+
+.btn-submit{
+    display: inline-block;
+    border: 2px purple solid;
+    color: white;
+    background-color: pink;
+    box-shadow: 3px 1px 0px rgb(211, 207, 209);
+    cursor: pointer;
+    padding: 5px 8px;
+    text-align: center;
+    line-height: normal;
+    background: linear-gradient(90deg,#730963 0,#e57de5 100%);
+    border-radius: 60px;
+    transition: color .2s ease, background-color .2s ease, box-shadow .2s ease;
+    
+}
+
+.formbox{
+    padding: 7px;
+    margin: 3px 3px 3px 3px;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fbfbfb;
+    border: 2px solid transparent;
+    height: 16px;
+    box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+
 }
