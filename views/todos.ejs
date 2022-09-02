@@ -7,27 +7,33 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <section class="todolists"></section>
+<body class="todos-body">
+<section class="todos">
+    <section class="todos-heading">
     <h1>Todos</h1>
+    </section>
+    <section class="todo-items">
     <ul>
     <% todos.forEach( el => { %>
             <li class='todoItem' data-id='<%=el._id%>'>
                 <span class='<%= el.completed === true ? 'completed' : 'not'%>'><%= el.todo %></span>
                 <span class='del'> Delete </span>
+                <span>Author: <%=  %></span>
             </li>
     <% }) %>    
     </ul>
 
     <h2><%= user.userName %> has <%= left %> things left to do.</h2>
 
-    <form action="/todos/createTodo" method='POST'>
-        <input type="text" placeholder="Enter Todo Item" name='todoItem'>
+    <form action="/todos/createTodo" method='POST' class="todos-formbox">
+        <input type="text" placeholder="Enter Todo Item" name='todoItem' class="formbox">
         <input type="submit" class="btn-submit">
     </form>
-
-    <a href="/logout">Logout</a>
-
+    </section>
+    <section class="logout-section">
+    <a href="/logout" class="btn logout">Logout</a>
+    </section>
+    </section>
     <script src="js/main.js"></script>
 </body>
 </html>
