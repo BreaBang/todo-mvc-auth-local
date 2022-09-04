@@ -1,36 +1,19 @@
 # Introduction
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
-
----
-
-> Be sure to add that lovely star 😀 and fork it for your own copy
-
----
+This simple Project Managment App is built using the MVC Architecture, we have also implemented "authorization" so users can sign up and log into the app. 
 
 # Objectives
 
 - It's a beginner level app created to understand how MVC concept and logins are added
 
----
+- This project also provided exposure to using EJS and Node.js.
 
-# Who is this for? 
-
-- It's for beginners & intermediates with little more experience, to help understand the various aspects of building a node app with some complex features
-
----
+- This was a group project that required 100devs developers to work together to understand the code and get it to run the way we wanted to.  
 
 # Packages/Dependencies used 
 
-bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
+npm i bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
 
----
-
-# Install all the dependencies or node packages used for development via Terminal
-
-`npm install` 
-
----
 
 # Things to add
 
@@ -39,6 +22,12 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
   - DB_STRING: `your database URI` 
  ---
  
- Have fun testing and improving it! 😎
+# Lessons Learned
+
+One thing I leanred fromt his project was how to add and render items from the controller into the EJS file. 
+
+# If We Had More Time
+
+1) One thing would be to add some logic to the percentage calculation so that 0 and 100% were the min and max values. 
 
 
