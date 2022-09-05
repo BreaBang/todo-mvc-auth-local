@@ -16,7 +16,8 @@ You can demo the site <a href="https://projectmanageapp.onrender.com">here</a>
 
 # Packages/Dependencies Used 
 
-npm i bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
+npm install bcrypt
+npm i connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
 
 # Things to Add
 
