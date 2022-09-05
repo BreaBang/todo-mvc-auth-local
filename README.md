@@ -2,6 +2,8 @@
 
 This simple app was built using the MVC Architecture and by implementing "authorization" so users can sign up and log into the app. The idea came about as an app to delegate or assign tasks for group projects so other group members could see who was doing what and when it was complete. 
 
+You can demo the site <a href="https://projectmanageapp.onrender.com">here</a>
+
 ![alt tag](https://github.com/BreaBang/todo-mvc-auth-local/blob/main/grouptodo.gif?raw=true)
 
 # Objectives
@@ -29,6 +31,8 @@ npm i bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-sessio
 The whole group started the project by walking through the code and learning how the to render items from the controller into the EJS file. 
 
 My additonal task was to add the percentage of tasks complete line to the EJS todos view. To do this I added an new object to the getTodos asynch function begining on line 7 of todos.js in the controllers folder. I used some basic javascript store the total number of todo items left and the number complete int to seperate variables. I stored their remainder in a serpate variable and use parseFloat() and toFixed() to turn the remainder into a percentage. 
+
+I also connected my local copy of the app to my own MongoDB database and installed the dependencies and got the server running. I was also able to deploy the application to Render. 
 
 # If We Had More Time
 
