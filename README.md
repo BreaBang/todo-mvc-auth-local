@@ -2,7 +2,7 @@
 
 This simple app was built using the MVC Architecture and by implementing "authorization" so users can sign up and log into the app. The idea came about as an app to delegate or assign tasks for group projects so other group members could see who was doing what and when it was complete. 
 
-(https://github.com/BreaBang/todo-mvc-auth-local/blob/main/grouptodo.gif?raw=true)
+![alt tag](https://github.com/BreaBang/todo-mvc-auth-local/blob/main/grouptodo.gif?raw=true)
 
 # Objectives
 
