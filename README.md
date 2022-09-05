@@ -40,8 +40,12 @@ We did not have much time to work on this project and there are functionalities 
 
 One thing I would do is add some logic to the percentage calculation so that 0 and 100% were the min and max values. Right now it displays "NaN" or Not a NUmber if there are no todo items left and sometimes it display "infinity". 
 
-A second thing I would do is streamline the css on all four pages and use an easier to read font.
+A second thing I would do is more work on the CSS. This current version is not mobile friendly and can't really be used on a phone. The CCS also needs to be streamlined on all four pages and an easier to read font should be added.
 
 Third, I would make sure the color scheme and alt text on the app were more accessible. 
 
+Additionally, there are other features that need to be added such as:
 
+- Password reset
+- Different dashboards for different projects
+- The ability to keep have serpate private group task boards or dashboards and to join or leave those groups of teams.
