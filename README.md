@@ -1,4 +1,4 @@
-# Group Project To-Do List App
+# Task It - A Group Project To-Do List App
 
 ![alt tag](https://github.com/BreaBang/todo-mvc-auth-local/blob/main/grouptodo.gif?raw=true)
 
