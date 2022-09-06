@@ -58,9 +58,9 @@ I also connected my local copy of the app to my own MongoDB database and install
 
 # Contributors
 
-Robert Arroyo [@R0Bone]([https://github.com/...](https://github.com/R0Bone))
-Breanna Bang [@breabang](https://github.com/breabang)
-JP Canindo[@j...](https://github.com/...)
-Aaron Clamp [@ronaldconn](https://github.com/ronaldconn)
-Terrashawn Starks [@...](https://github.com/...)
-Jacob Willkomm [@JacobWillkomm](https://github.com/JacobWillkomm)
+- Robert Arroyo [@R0Bone]([https://github.com/...](https://github.com/R0Bone))
+- Breanna Bang [@breabang](https://github.com/breabang)
+- JP Canindo[@j...](https://github.com/...)
+- Aaron Clamp [@ronaldconn](https://github.com/ronaldconn)
+- Terrashawn Starks [@...](https://github.com/...)
+- Jacob Willkomm [@JacobWillkomm](https://github.com/JacobWillkomm)
