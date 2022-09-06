@@ -1,5 +1,7 @@
 # Group Project To-Do List App
 
+![alt tag](https://github.com/BreaBang/todo-mvc-auth-local/blob/main/grouptodo.gif?raw=true)
+
 This simple app was built using the MVC Architecture and by implementing "authorization" so users can sign up and log into the app. The idea came about as an app to delegate or assign tasks for group projects so other group members could see who was doing what and when it was complete. 
 
 This app challenged us to keep our code as dry as possible, while adding complex functionality. 
@@ -11,8 +13,6 @@ This model format was repeated and utilized for the organization of task items a
 The straight forward database schemas established a core for the complex functionality desired. And such, the code necessary for the controller logic was able to be much "dryer" than that of a multifaceted databse that creates endles parent and child nodes on every request. 
 
 You can demo the site <a href="https://projectmanageapp.onrender.com">here</a>
-
-![alt tag](https://github.com/BreaBang/todo-mvc-auth-local/blob/main/grouptodo.gif?raw=true)
 
 # Objectives
 
